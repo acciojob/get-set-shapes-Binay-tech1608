@@ -16,23 +16,23 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-	constructor(width,height,side){
-		super(width, height);
+	constructor(side){
+		super(side, side);
 		// this._width = side;
 		// this._height = side;
 		this.side = side;
 	}
-	get width(){
-		this._width = side;
-	}
-	get height(){
-		this._height = side;
-	}
+	// get width(){
+	// 	this.width = side;
+	// }
+	// get height(){
+	// 	this.height = side;
+	// }
 	get side(){
 		this._side = side;
 	}
 	getPerimeter(){
-		return (4 * this.side);
+		return (4 * this.width);
 	}
 }
 
