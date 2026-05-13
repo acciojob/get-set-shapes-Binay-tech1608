@@ -16,7 +16,7 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-	constructor(side){
+	constructor(width,height,side){
 		super(width, height);
 		this._width = side;
 		this._height = side;
